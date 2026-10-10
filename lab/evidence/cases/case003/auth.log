@@ -1,0 +1,3 @@
+user=analyst01 event=authentication result=failed source=192.0.2.45 destination=192.0.2.10 method=password timestamp=2026-10-10T08:12:07
+user=analyst02 event=login result=denied source=192.0.2.45 destination=192.0.2.10 method=publickey timestamp=2026-10-10T09:45:10
+user=analyst01 event=login result=success source=192.0.2.45 destination=192.0.2.10 method=ssh timestamp=2026-10-10T10:18:06
