@@ -13,7 +13,21 @@ In this challenge, I practiced creating files, writing text to them, and inspect
 - **`wc -c`, `wc -l`, and `wc -w`**: Counting bytes, lines, and words.
 - **`file`**: Checking the type of a file.
 
-I also learned some basic log fields, such as usernames, event types, results, source and destination IP addresses, authentication methods, and timestamps.
+## Basic Log Concepts
+
+I learned how simple log records can be organized using fields such as:
+
+- user: The account involved in an event.
+- event: The type of activity, such as a login or authentication attempt.
+- result: The outcome, such as failed, denied, or success.
+- source: The IP address where the connection originated.
+- destination: The target IP address.
+- method: The authentication method, such as a password or SSH public key.
+- timestamp: The date and time when the event occurred.
+
+I created fictional authentication records containing failed and successful login attempts. I also practiced using a consistent timestamp format, such as 2026-10-10T08:12:07, and learned why keeping each record on a separate line makes logs easier to inspect.
+
+These are simplified, manually created examples for learning. Real system logs may use different formats and field names.
 
 ## Files Created
 
